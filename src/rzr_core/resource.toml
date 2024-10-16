@@ -6,3 +6,4 @@ client-files = [
 ]
 deps = [ 
 ]
+client-type = "jsb"

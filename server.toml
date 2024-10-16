@@ -2,7 +2,8 @@
 debug = true
 
 modules = [
-    "js-module"
+    "js-module",
+    "js-bytecode-module"
 ]
 resources = [
     "rzr_core"
