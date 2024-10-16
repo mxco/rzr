@@ -1,0 +1,16 @@
+{
+    "name": "rzr",
+    "type": "module",
+    "devDependencies": {
+        "@altv/types-client": "^16.2.7",
+        "@altv/types-natives": "^16.2.1",
+        "@altv/types-server": "^16.2.5",
+        "@altv/types-shared": "^16.2.4",
+        "@altv/types-webview": "^16.2.1",
+        "altv-pkg": "^2.10.0",
+        "typescript": "^5.6.3"
+    },
+    "scripts": {
+        "build": "node_modules/.bin/tsc && rsync -a --include='*/' --include='*.toml' --exclude='*' src/ resources/"
+    }
+}

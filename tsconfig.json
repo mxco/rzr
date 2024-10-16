@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "esnext",
+        "resolveJsonModule": true,
+        "removeComments": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "rootDir": "src/",
+        "outDir": "resources/",
+        "typeRoots": [
+            "node_modules/@altv",
+            "node_modules/@types"
+        ],
+    },
+    "compileOnSave": true,
+    "include": [
+        "src/**/*.ts",
+    ],
+  }

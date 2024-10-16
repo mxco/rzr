@@ -1,0 +1,16 @@
+# change in production
+debug = true
+
+modules = [
+    "js-module"
+]
+resources = [
+    "rzr_core"
+]
+
+name = "alt:V Server"
+language = "en"
+# password = "ultra-password"
+
+gamemode = "Freeroam"
+players = 128
