@@ -11,6 +11,10 @@ alt.on('playerConnect', (player: alt.Player) => {
 
 alt.on('playerSpawn', () => {
    
-    let vehicle = new alt.Vehicle('virtue', 813.5, -279.5, 67.0, 0, 0, 0);
+    let vehicle = new alt.Vehicle('jugular', 813.5, -279.5, 67.0, 0, 0, 0);
     vehicle.customPrimaryColor = alt.RGBA.white;
+});
+
+alt.on('vehicleDamage', (vehicle: alt.Vehicle) => {
+    vehicle.repair();
 });

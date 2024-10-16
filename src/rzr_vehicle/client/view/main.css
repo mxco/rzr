@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.speed {
+    transform: translate(0%, 0%);
+    display: flex;
+    flex-direction: column-reverse;
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+    position: absolute;
+    right: 2rem;
+    bottom: 1rem;
+}
+
+.speed-number {
+    font-size: 48px;
+    font-weight: 800;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.7);
+}
+.speed-number:after {
+    content: " KM/H";
+    font-size: 24px;
+}
+
+.speed-bars {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.speed-bars-bar {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: background-color 0.3s;
+    border-radius: 2px;
+}
+.speed-bars-bar[data-rpm="0"] {
+    height: 20px; 
+}
+.speed-bars-bar[data-rpm="1"] {
+    height: 22px; 
+}
+.speed-bars-bar[data-rpm="2"] {
+    height: 25px; 
+}
+.speed-bars-bar[data-rpm="3"] {
+    height: 29px; 
+}
+.speed-bars-bar[data-rpm="4"] {
+    height: 34px; 
+}
+.speed-bars-bar[data-rpm="5"] {
+    height: 40px; 
+}
+.speed-bars-bar[data-rpm="6"] {
+    height: 47px; 
+}
+.speed-bars-bar[data-rpm="7"] {
+    height: 55px; 
+}
+.speed-bars-bar[data-rpm="8"] {
+    height: 55px; 
+}
+.speed-bars-bar[data-rpm="9"] {
+    height: 55px; 
+}
+
+.speed-bars-bar.filled {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.speed-bars-bar.filled-max {
+    background-color: rgba(220, 20, 60, 0.6);
+}
+
+.hidden {
+    display: none;
+}

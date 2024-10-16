@@ -1,0 +1,10 @@
+type = "js"
+main = "index.js"
+client-main = "client/index.js"
+client-files = [
+    "client/*"
+]
+deps = [ 
+    "rzr_core"
+]
+client-type = "jsb"

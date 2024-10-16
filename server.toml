@@ -6,7 +6,8 @@ modules = [
     "js-bytecode-module"
 ]
 resources = [
-    "rzr_core"
+    "rzr_core",
+    "rzr_vehicle"
 ]
 
 name = "alt:V Server"

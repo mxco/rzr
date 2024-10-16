@@ -11,6 +11,6 @@
         "typescript": "^5.6.3"
     },
     "scripts": {
-        "build": "node_modules/.bin/tsc && rsync -a --include='*/' --include='*.toml' --exclude='*' src/ resources/"
+        "build": "node_modules/.bin/tsc && rsync -a --include='*/' --include='*.toml' --include='*.html' --include='*.css' --include='*.js' --exclude='*' src/ resources/"
     }
 }
