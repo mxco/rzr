@@ -6,6 +6,7 @@
 ~git clone
 cd altv
 npm install
+npx altv-pkg release # to install release binaries
 ```
 ## Server
 * make `altv-server` and `altv-crash-handler` both executable
